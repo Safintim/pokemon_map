@@ -58,7 +58,6 @@ def show_pokemon(request, pokemon_id):
             'pokemon_id': requested_pokemon.id,
             'img_url': requested_pokemon.image.url if requested_pokemon.image else None,
             'description': requested_pokemon.description,
-            'title'
             'title_ru': requested_pokemon.title,
             'title_en': requested_pokemon.title_en,
             'title_jp': requested_pokemon.title_jp,
